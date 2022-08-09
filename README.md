@@ -1,5 +1,6 @@
 # Tick-Tack-Tow
 <br>
+<h1>
 <a href = "https://hkarmely.github.io/Tick-Tack-Tow/" target="_blank">
     <img src="Tic-tak-tow.jpg" alt="Tic-Tac-Toe created in JavaScript" />
     </a>
