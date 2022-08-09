@@ -1,0 +1,101 @@
+#board {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  /* border: 1px solid black; */
+
+}
+
+#fixedRestart{
+  position:fixed;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -50%);
+}
+
+#fixedScoreRestart{
+  position:fixed;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+}
+
+#resultTable{
+  position:fixed;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  width: 10%
+}
+
+h6{
+  position:fixed;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  width: 10%
+}
+
+h1{
+  position:fixed;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.game-cell {
+  height: 90px;
+  width: 90px;
+  border: 1px solid orange;
+  background-color: lightblue;
+  font-size: 65px;
+  font-family: serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.game-cell:not(.disabled):hover {
+  /* background: #eee; */
+  background: navy;
+}
+
+.x::after {
+  content: 'X';
+}
+
+.o::after {
+  content: 'O';
+}
+
+.visible {
+  display: block;
+}
+
+.game-cell:nth-child(-n + 3) {
+  border-top: none;
+}
+
+.game-cell:nth-child(3n + 1) {
+  border-left: none;
+}
+
+.game-cell:nth-child(3n + 3) {
+  border-right: none;
+}
+
+.game-cell:nth-last-of-type(-n + 3) {
+  border-bottom: none;
+}
