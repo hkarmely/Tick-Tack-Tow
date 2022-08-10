@@ -50,7 +50,7 @@ theModal.innerHTML = `
   
   <!-- Modal body -->
   <div class="modal-body" id="modal-body">
-  Please press "restart" button to play again,
+  Please press "Next Round" button to play another round,
   <br><br>
   Clicking outside this window returns you to current game
   </div>
