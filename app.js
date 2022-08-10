@@ -57,7 +57,7 @@ theModal.innerHTML = `
   
   <!-- Modal footer -->
   <div class="modal-header" id="modal-footer">
-  <button type="button" class="restart btn btn-danger" data-dismiss="modal">restart</button>
+  <button type="button" class="restart btn btn-danger" data-dismiss="modal">Next Round</button>
   </div>
   
   </div>
